@@ -40,7 +40,7 @@ let score=JSON.parse(localStorage.getItem('score'))
       }
 
     }
-    else if(playerMove === 'paper'){
+    else if(playerMove === 'Paper'){
 
       if (computerMove === 'Rock'){
         result = 'Won';
